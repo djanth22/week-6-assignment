@@ -17,7 +17,7 @@ export default function App() {
     const savedCookies = localStorage.getItem("cookies");
     const savedCps = localStorage.getItem("cookiesPerSecond");
     if (savedCookies !== null) setCookies(Number(savedCookies));
-    if (savedCps !== null) setCPS(Number(savedCps));
+    if (savedCps !== null) cps(Number(savedCps));
     console.log(savedCookies);
   }, []);
 
