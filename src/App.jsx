@@ -17,7 +17,7 @@ export default function App() {
     const savedCookies = localStorage.getItem("cookies");
     const savedCps = localStorage.getItem("cookiesPerSecond");
     if (savedCookies !== null) setCookies(Number(savedCookies));
-    if (savedCps !== null) cps(Number(savedCps));
+    if (savedCps !== null) setCpsDis(Number(savedCps));
     console.log(savedCookies);
   }, []);
 
@@ -26,8 +26,8 @@ export default function App() {
   }, [com]);
 
   useEffect(() => {
-    localStorage.setItem("cookiesPerSecond", cps);
-  }, [cps]);
+    localStorage.setItem("cookiesPerSecond", cpsDis);
+  }, [cpsDis]);
 
   function increase() {
     setCookies(cookies + 1);
