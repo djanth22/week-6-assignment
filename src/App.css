@@ -117,6 +117,17 @@
   box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.575);
 }
 
+.message {
+  background-color: rgb(44, 0, 0);
+  color: rgb(255, 170, 170);
+  font-size: larger;
+  text-align: center;
+  text-shadow: 0px 0px 5px #ff1717, 0px 0px 10px #ff1717, 0px 0px 20px #ff1717;
+  padding: 20px;
+  border-radius: 30px;
+  border: 4px, red, solid;
+}
+
 .shop-title {
   border-radius: 20px;
   padding: 5px;

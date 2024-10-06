@@ -17,7 +17,7 @@ export default function Display({ com, increase, reset, cps }) {
           className="cookie-image"
         ></img>
         <button className="reset-button" onClick={reset}>
-          reset
+          Reset
         </button>
       </>
     </div>
