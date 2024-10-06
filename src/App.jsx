@@ -26,8 +26,8 @@ export default function App() {
   }, [com]);
 
   useEffect(() => {
-    localStorage.setItem("cookiesPerSecond", CPS);
-  }, [CPS]);
+    localStorage.setItem("cookiesPerSecond", cps);
+  }, [cps]);
 
   function increase() {
     setCookies(cookies + 1);
